@@ -10,8 +10,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@types/bun": "^1.2.21",
+    "@types/react-dom": "^19.1.9",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "server": "react-dom/server",
     "zod": "^3.0.0"
   },
   "repository": {

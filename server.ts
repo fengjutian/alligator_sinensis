@@ -8,7 +8,11 @@ Bun.serve({
   fetch: handler,
   websocket: {
     open: (socket) => {},
+    message: (socket, message) => {
+      // You can handle messages here, or leave empty
+    },
+    close: (socket, code, reason) => {},
   },
 });
 
-console.log("⚡ Bun 全栈模板：http://localhost:3000");
+console.log("⚡ Bun 扬子鳄全栈模板：http://localhost:3000");
