@@ -316,5 +316,3 @@ CMD ["bun","server.js"]
 7. v1.0：文档站、示例模板（博客、仪表盘、SaaS）
 
 ---
-
-如果你愿意，我可以把上面骨架打成一个**最小可运行模板**（含 SSR 页面、一个 REST、一个 RPC、一个 WS、SQLite 表、Dockerfile），你直接 `bun install && bun run dev` 起飞。需要我直接给你仓库初始化脚本和完整文件清单吗？
