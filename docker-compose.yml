@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  bun-app:
+    build: .
+    container_name: bun-fullstack-app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app.db:/app/app.db
+    restart: unless-stopped

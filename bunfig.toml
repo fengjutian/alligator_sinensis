@@ -1,0 +1,9 @@
+name = "bun-fullstack-template"
+entry = "server.ts"
+
+[install]
+ignore = []
+
+[scripts]
+start = "bun run start"
+dev = "bun run dev"

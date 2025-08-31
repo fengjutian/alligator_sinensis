@@ -316,3 +316,12 @@ CMD ["bun","server.js"]
 7. v1.0：文档站、示例模板（博客、仪表盘、SaaS）
 
 ---
+
+
+bun install
+bun run server.ts
+
+
+docker-compose build
+docker-compose up -d
+

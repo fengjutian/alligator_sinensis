@@ -1,0 +1,28 @@
+{
+  "name": "alligator_sinensis",
+  "version": "1.0.0",
+  "description": "扬子鳄 全栈开发框架",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run server.ts",
+    "start": "bun run server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zod": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengjutian/alligator_sinensis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fengjutian/alligator_sinensis/issues"
+  },
+  "homepage": "https://github.com/fengjutian/alligator_sinensis#readme"
+}
