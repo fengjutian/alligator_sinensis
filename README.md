@@ -319,9 +319,11 @@ CMD ["bun","server.js"]
 
 
 bun install
+
 bun run server.ts
 
 
 docker-compose build
+
 docker-compose up -d
 
