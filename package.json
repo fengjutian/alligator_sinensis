@@ -8,6 +8,8 @@
     "preinstall": "node ./scripts/check-package-manager.js",
     "dev": "bun run server.ts",
     "start": "bun run server.ts",
+    "build:client": "bun build app/client/entry-client.tsx --outfile=public/client.js",
+    "build": "bun run build:client",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "echo '✅ 依赖安装完成！'"
   },
