@@ -5,9 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "preinstall": "node ./scripts/check-package-manager.js",
     "dev": "bun run server.ts",
     "start": "bun run server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "echo '✅ 依赖安装完成！'"
   },
   "dependencies": {
     "@types/bun": "^1.2.21",
@@ -27,5 +29,9 @@
   "bugs": {
     "url": "https://github.com/fengjutian/alligator_sinensis/issues"
   },
-  "homepage": "https://github.com/fengjutian/alligator_sinensis#readme"
+  "homepage": "https://github.com/fengjutian/alligator_sinensis#readme",
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "engineStrict": true
 }
